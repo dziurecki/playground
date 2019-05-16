@@ -43,7 +43,7 @@ int main (){
     stringS.cgi[2] = '\0';
 
     strncpy(stringS.cgi, "It Works!", 9);
-    stringS.cgi[9] = '1';
+    stringS.cgi[8] = '1';
     
 
     printf("CGi seems to be %s \n", extractro.getString());
@@ -69,6 +69,7 @@ int main (){
     cout << "== Its Easy! ==" << endl;
     cout << "===============" << endl;
     cout << "\t But how?" << endl;
+
     cout << "It's finally over!" << endl;
     return 0;
 }
